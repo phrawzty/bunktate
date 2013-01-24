@@ -16,7 +16,5 @@ fpm -s dir \
     --url 'https://github.com/phrawzty/bunktate' \
     --maintainer "$1" \
     -d 'ruby' -d 'rubygems' \
-    --directories '/usr/local/bunktate' \
     --after-install 'perms' \
-    -e \
     -C bunktate-build .
