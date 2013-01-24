@@ -1,3 +1,3 @@
 #!/bin/sh
-export GEM_PATH=`pwd`/vendor/bundle/ruby/1.8/
-ruby ./bunktate.rb $@
+export GEM_PATH=`pwd`/vendor/bundle/ruby/1.*
+ruby bunktate.rb $@
