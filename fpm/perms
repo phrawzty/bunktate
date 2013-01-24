@@ -1,0 +1,3 @@
+find /usr/local/bunktate -type d -exec chmod a+rx {} \;
+find /usr/local/bunktate -type f -exec chmod a+r {} \;
+chmod a+x /usr/local/bunktate/bunktate
