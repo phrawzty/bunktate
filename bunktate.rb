@@ -13,6 +13,7 @@ def rotate (es_url, hot, cold)
     # do the re-index
     begin
         result = Tire.index(hot).reindex cold
+        result = Tire.index(hot).delete
     rescue
         # some sort of fancy error handling here. :P
     end
