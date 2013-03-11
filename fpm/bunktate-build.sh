@@ -8,7 +8,7 @@ fi
 fpm -s dir \
     -t rpm \
     -n bunktate \
-    -v '1.0.0' \
+    -v '1.0.2' \
     --iteration '1.el6' \
     --category 'System Environment/Utilities' \
     -a 'x86_64' \
