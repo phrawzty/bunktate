@@ -1,5 +1,10 @@
-bunktate
-========
+# bunktate
+
+## This is probably useless now
+
+But in the interest of using the Internet as an archive of all things, it shall remain.
+
+## Info
 
 Rotate your logstash indices, for science !
 
